@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+
+        }
+
+        body{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-color: cornflowerblue;  
+        }
+
+
+        #card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 10px;
+            height: 300px;
+            width: 200px;
+            gap: 5px;
+            background-color: white;
+            padding: 5 px;
+
+        }
+
+
+        #card   img{
+           
+            width: 50%;
+            /* height: 50%; */
+            object-fit: cover;
+            margin: 0  auto;
+            /* background-color: red; */
+          
+        }
+
+        img{
+            background-color: red;
+            padding: 5px;
+        }
+
+       
+
+        /* .parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 2px solid;
+        } */
+
+        button{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="card">
+    
+
+    <img src="medel_im.webp" alt="model img">
+<h1>Angel priya</h1>
+
+<h3></h3>
+    <button id="btn">Add FRIEND</button>
+</div>
+
+    
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

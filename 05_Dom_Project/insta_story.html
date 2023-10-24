@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram story</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+       
+
+        }
+
+        html,body{
+            width: 100%;
+            height: 100%;
+
+        }
+
+        body{
+            background-color: cyan;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #parent-card{
+            width: 350px;
+            height: 600px;
+          border: 3px solid black;
+          background-color: aliceblue;
+          border-radius: 10px;
+          /* color: red; */
+         
+        }
+
+
+        .parent-for-storiya{
+            width: 100%;
+            height: 200px;
+            /* border-bottom: 5px solid red; */
+            /* display: flex;
+            align-items: center; */
+            /* justify-content: center; */
+            padding: 5px;
+            background-color:green;
+            overflow: hidden;
+            display: inline-block;
+            
+        }
+
+
+        .story-child{
+
+            width: 70px;
+            height: 70px;
+            display: inline-block;
+        }
+
+        .story-one{
+            width: 100%;
+            height: 100%;
+            /* background-color: red;  */
+            /* border-radius: 50%; */
+          /* display: flex;
+            flex-direction: column;
+            gap: 30px; */
+            /* justify-content: center; */
+            /* align-items: center;
+           overflow: hidden; */
+            /* border: 3px solid red; */
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            justify-content: center; */
+            /* display: inline-block; */
+
+        }
+
+        .story-one .img{
+            /* width: 50px; */
+            width: 50px;
+            height: 50px;
+
+            border-radius: 50%;
+            border: 2px solid red;
+            overflow: hidden;
+            /* overflow: hidden; */
+
+            /* overflow: hidden; */
+
+            /* height: 50px; */
+        }
+
+        .story-one .img img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-size: cover;
+            background-position: center;
+            /* overflow: hidden; */
+        }
+
+
+
+/* .heading{
+    color: red;
+    position: relative;
+    left: 29px;
+} */
+    </style>
+</head>
+<body>
+    
+    <div id="parent-card">
+
+
+
+        <div class="parent-for-storiya">
+
+
+            <div class="story-child">
+
+                <div class="story-one">
+
+                 <div class="img"><img src="pexels-arnie-chou-1557843.jpg" alt=""></div>   
+
+                    <div class="heading">
+                        hema 
+                    </div>
+
+                </div> 
+                  <!--story one  -->
+
+                <div class="story-one">
+
+                    <div class="img"><img src="pexels-arnie-chou-1557843.jpg" alt=""></div>   
+   
+                       <div class="heading">
+                           hema 
+                       </div>
+   
+                   </div>
+                   <!--story two  -->
+
+
+                <div class="story-one">
+
+                    <div class="img"><img src="pexels-arnie-chou-1557843.jpg" alt=""></div>   
+   
+                       <div class="heading">
+                           hema 
+                       </div>
+   
+                   </div>
+                   <!--story three  -->
+
+
+
+                <div class="story-one">
+
+                    <div class="img"><img src="pexels-arnie-chou-1557843.jpg" alt=""></div>   
+   
+                       <div class="heading">
+                           hema 
+                       </div>
+   
+                   </div>
+                   <!--story five  -->
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+   
+
+
+    <script src="insta-story.js"></script>
+</body>
+</html>
